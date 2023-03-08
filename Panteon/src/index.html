@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Пантеон</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.ico" sizes="32x32" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicons/favicon_64x64.png" sizes="64x64" type="image/png">
+    <link rel="apple-touch-icon" href="img/favicons/favicon_180x180.png" sizes="180x180" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/simplebar.css">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body class="body">
+
+   <div class="wrapper d-flex flex-column">
+    
+    <header class="header"><!-- header start -->
+      <div class="container px-md-2 px-lg-auto">
+
+        <nav class="navigation _anim _anim-hide"><!-- navbar start -->
+          <div class="row">
+
+            <div class="col-xl-2 col-6 pl-lg-3 pl-md-0">
+
+              <a href="index.html" class="navigation__logo d-flex ml-lg-4 ml-0 mb-1" aria-label="Фитнес клуб пантеон главная">
+                <picture>
+                  <source srcset="img/header/logo.webp" type="image/webp">
+                  <img src="img/header/logo.png" alt="Логотип Пантеон" class="img-fluid navigation__image">
+                </picture>
+              </a>
+
+            </div>
+            
+            <div class="col-6 justify-content-end align-items-center pr-2 burger"><!-- burger menu start-->
+
+              <div class="burger-button position-relative" role="button" aria-label="Меню" tabindex="0">
+                <div class="line line-1 position-absolute"></div>
+                <div class="line line-2 position-absolute"></div>
+                <div class="line line-3 position-absolute"></div>
+                <div class="line line-4 position-absolute"></div>
+              </div>
+
+            </div>
+
+            <div class="burger-menu fixed-top w-100" role="menu">
+
+              <div class="burger-menu__wrapper">
+
+                <a href="index.html" class="burger-menu__logo d-flex ml-lg-3 ml-0 mb-1">
+                  <picture>
+                    <source srcset="img/header/logo.webp" type="image/webp">
+                    <img src="img/header/logo.png" alt="Логотип Пантеон" class="img-fluid navigation__image">
+                  </picture>
+                </a>
+
+              </div>
+
+              <div class="burger-menu__wrapper-1 d-flex justify-content-between">
+                <ul class="burger-menu__links d-flex flex-column">
+
+                  <li>
+                    <a href="#coaches" class="link burger-menu__link text-center">Тренеры</a>
+                  </li>
+
+                  <li>
+                    <a href="#contacts1" class="link burger-menu__link text-center">Контакты</a>
+                  </li>
+
+                  <li>
+                    <a href="tel:+7(496)416-19-16" class="link burger-menu__link text-center">+7 (496) 416-19-16</a>
+                  </li>
+
+                </ul>
+
+                <ul class="burger-menu__links d-flex flex-column">
+
+                  <li>
+                    <a href="#about" class="link burger-menu__link text-center">О нас</a>
+                  </li>
+
+                  <li>
+                    <a href="#gallery" class="link burger-menu__link text-center">Галерея</a>
+                  </li>
+
+                  <li>
+                    <a href="#price" class="link burger-menu__link text-center">Абонементы</a>
+                  </li>
+
+                </ul>
+              </div>
+
+            </div><!-- burger menu end -->
+
+            <div class="col-xl-8 order-1 order-xl-0 align-items-end justify-content-center d-none d-md-flex flex-wrap list">
+
+              <ul class="navigation__list d-flex mr-lg-3 mr-0 mt-lg-4 mt-xl-0 flex-wrap flex-md-nowrap">
+
+                <li class="navigation__item">
+                  <a href="#about" class="link navigation__link text-center">О нас</a>
+                </li>
+
+                <li class="navigation__item">
+                  <a href="#gallery" class="link navigation__link text-center">Галерея</a>
+                </li>
+
+                <li class="navigation__item">
+                  <a href="#price" class="link navigation__link text-center">Абонементы</a>
+                </li>
+
+                <li class="navigation__item">
+                  <a href="#coaches" class="link navigation__link text-center">Тренеры</a>
+                </li>
+
+                <li class="navigation__item">
+                  <a href="#contacts" class="link navigation__link text-center">Контакты</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="col-xl-2 col-md-6 col-6 order-0 order-xl-1 flex-column align-items-end justify-content-lg-end justify-content-center pr-md-0 pr-lg-4 d-none d-md-flex number">
+
+              <a href="tel:+7(496)416-19-16" class="link navigation__link navigation__link--tel mb-3 mb-lg-0">+7 (496) 416-19-16</a>
+
+            </div>
+
+          </div>
+        </nav><!-- navbar end -->
+
+        <div class="intro d-flex flex-column align-items-center _anim _anim-hide"><!-- intro start -->
+
+          <h1 class="intro__title title text-center" tabindex="0">Фитнес клуб Пантеон</h1>
+          <p class="intro__subtitle subtitle text-center" tabindex="0">Лучше нас только боги</p>
+
+          <div class="transform-wrapper-1">
+            <button class="intro__button button ml-2 position-relative" data-toggle="modal" data-target="#modal-ask">
+              <span class="text button__text d-block tz text-center">Получить консультацию</span>
+            </button>
+          </div>
+
+          <button class="position-absolute" id="imitator" data-toggle="modal" data-target="#modal-result" aria-hidden="true" tabindex="-1"></button>
+
+        </div><!-- intro end -->
+
+        <div class="subintro _anim _anim-hide"><!-- subintro start -->
+
+          <div class="row">
+
+            <div class="col-2 offset-5 offset-md-5 d-flex justify-content-center">
+
+              <a href="#about" class="subintro__down d-flex align-items-end mt-md-2 pt-md-1">
+                <svg class="subintro__image tz" width="19" height="10">
+                  <use xlink:href="img/svg/sprite.svg#down"></use>
+                </svg>
+              </a>
+
+            </div>
+
+            <div class="col-3 offset-2 pr-lg-4 pr-md-0 d-flex justify-content-end">
+
+              <div class="socials d-flex align-items-start mr-0" role="directory">
+
+                <a href="#" target="_blank" class="socials__link tz">
+                  <svg width="23px" height="22px" class="socials__logo tz">
+                    <use xlink:href="img/svg/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+
+                <a href="#" target="_blank" class="socials__link tz">
+                  <svg width="31px" height="18px" class="socials__logo tz">
+                    <use xlink:href="img/svg/sprite.svg#vk"></use>
+                  </svg>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button class="upward position-fixed tz" tabindex="-1" aria-label="В начало страницы">
+            <svg class="upward__image">
+              <use xlink:href="img/svg/sprite.svg#up"></use>
+            </svg>
+          </button>
+
+        </div><!-- subintro end -->
+
+      </div>
+
+      <div class="modal fade" id="modal-ask" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content position-relative">
+  
+            <div class="popup position-absolute mt-3 mt-md-5" tabindex="0"><!-- popup-ask start -->
+  
+              <div class="popup__navbar popup__navbar--ask d-flex justify-content-between align-items-start mx-auto">
+  
+                <a href="index.html" class="navigation__logo d-flex">
+                  <picture>
+                    <source srcset="img/header/logo.webp" type="image/webp">
+                    <img src="img/header/logo.png" alt="Логотип Пантеон" class="img-fluid popup__image">
+                  </picture>
+                </a>
+  
+                <button class="popup__button close" data-dismiss="modal" id="close" aria-label="Закрыть окно">
+                  <svg class="close__icon">
+                    <use xlink:href="img/svg/sprite.svg#close"></use>
+                  </svg>
+                </button>
+  
+              </div>
+  
+              <div class="popup__main d-flex flex-column mx-auto">
+  
+                <h1 class="popup__title-1 popup__title-1--ask title-1 text-center mx-auto" tabindex="0">Оставьте Ваш номер телефона и мы <span class="popup__marked">обязательно с Вами свяжемся</span></h1>
+  
+                <form action="#" method="post" enctype="text/plain" class="form d-flex flex-column align-items-center">
+
+                  <div class="form__inputs d-flex flex-column">
+  
+                    <div class="form__unit">
+                      <input type="text" class="form__name text-5" placeholder="Введите имя" maxlength="30" id="name" autocomplete="off">
+                      <div id="name-warning" class="name-warning overflow-hidden"></div>
+                    </div>
+    
+                    <div class="form__unit">
+                      <input type="tel" class="form__tel text-5" placeholder="Введите телефон" id="tel" autocomplete="off">
+                      <div id="tel-warning" class="tel-warning overflow-hidden"></div>
+                    </div>
+
+                  </div>
+  
+                  <button class="intro__button button position-relative" type="submit" id="submit">
+                    <span class="text button__text d-block text-center">Получить консультацию</span>
+                  </button>
+
+                  <p class="questions__text-5 text-5 text-center">Нажимая на кнопку вы соглашаетесь с <a href="#" target="_blank" class="questions__rules d-inline" id="rule">политикой конфиденциальности</a></p>
+  
+                </form>
+  
+              </div>
+  
+            </div><!-- popup-ask end -->
+  
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal-result" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content position-relative">
+  
+            <div class="popup position-absolute mt-3 mt-md-5"><!-- popup-result start -->
+  
+              <div class="popup__navbar d-flex justify-content-between align-items-start mx-auto">
+  
+                <a href="index.html" class="navigation__logo d-flex">
+                  <picture>
+                    <source srcset="img/header/logo.webp" type="image/webp">
+                    <img src="img/header/logo.png" alt="Логотип Пантеон" class="img-fluid popup__image">
+                  </picture>
+                </a>
+  
+                <button class="popup__button close" data-dismiss="modal" aria-label="Закрыть окно">
+                  <svg width="44" height="44" class="close__icon">
+                    <use xlink:href="img/svg/sprite.svg#close"></use>
+                  </svg>
+                </button>
+  
+              </div>
+  
+              <div class="popup__main d-flex flex-column mx-auto">
+  
+                <h1 class="popup__title-1 title-1 d-flex mx-auto align-items-center" tabindex="0">Данные успешно отправлены</h1>
+                
+                <p class="popup__subtitle-1 subtitle-1 text-md-center mx-auto" tabindex="0">Мы свяжемся с вами вближайшее время</p>
+  
+                <div class="popup__info d-flex flex-column">
+  
+                  <div class="popup__loaction d-flex justify-content-between w-100 flex-wrap">
+  
+                    <a href="https://goo.gl/maps/VY5XnahnD8CmAYit8" target="_blank" class="popup__link">
+                      <p class="popup__text-1 text-1 d-flex align-items-center">г. Орехово-Зуево, ул. Ленина 84</p>
+                    </a>
+  
+                    <p class="popup__text-1 popup__text-1--time text-1 d-flex align-items-center" tabindex="0">Ежедневно с 8:00 до 23:00</p>
+  
+                  </div>
+  
+                  <p class="popup__text-2 text-2 text-md-center" tabindex="0">Подписывайтесь на наши соц.сети</p>
+  
+                  <div class="socials d-flex align-items-center mx-md-auto" role="directory">
+  
+                    <a href="#" target="_blank" class="socials__link">
+                      <svg class="popup__logo tz" width="23" height="22">
+                        <use xlink:href="img/svg/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+    
+                    <a href="#" target="_blank" class="socials__link">
+                      <svg class="popup__logo tz" width="31" height="18">
+                        <use xlink:href="img/svg/sprite.svg#vk"></use>
+                      </svg>
+                    </a>
+    
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+            </div><!-- popup-result end -->
+  
+          </div>
+        </div>
+      </div>    
+
+    </header><!-- header end -->
+
+    <main class="main"><!-- main start -->
+
+      <section class="about overflow-hidden _anim _anim-hide" id="about"><!-- about start -->
+        <div class="container px-lg-auto px-md-1">
+
+          <div class="row">
+
+            <div class="col-xl-7 d-flex justify-content-center pl-lg-5 pl-3 order-1 order-lg-0">
+              
+              <div class="about__illustrations d-flex ml-md-0 ml-xl-2 flex-lg-wrap flex-nowrap flex-column flex-md-row">
+
+                <div class="about__column d-flex flex-column">
+
+                  <div class="about__zoom about__zoom--1 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/about-1.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/about-1-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/about-1.jpg" alt="Тренировка" class="about__image img-fluid">
+                    </picture>
+                  </div>
+
+                </div>
+
+                <div class="about__column about__column--down d-flex flex-column">
+
+                  <div class="about__zoom about__zoom--2 overflow-hidden">
+                    <picture class="about__picture">
+                      <source srcset="img/main/about-2.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/about-2-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/about-2.jpg" alt="Тренировка" class="about__image img-fluid">
+                    </picture>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-xl-5 order-0 order-lg-1 px-lg-3 px-md-0 px-auto">
+
+              <div class="about__info d-flex flex-column align-items-xl-start align-items-md-center">
+
+                <h2 class="about__title-1 title-1 mr-md-2 mr-lg-0 text-center text-md-left" tabindex="0">Новый образ жизни</h2>
+
+                <p class="about__text-1 text-1 text-left text-sm-center text-xl-left" tabindex="0">Став частью нашей команды, вы сможете изменить привычный ритм жизни и сделать каждый свой день особенным, а формат наших тренировок позволит вам раскрыть потенциал вашего тела на 100%.</p>
+
+                <div class="transform-wrapper-2 d-flex d-md-block justify-content-center">
+                  <button class="button about__button" data-toggle="modal" data-target="#modal-ask">
+                    <span class="text button__text d-block text-center">Получить консультацию</span>
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="advantages d-flex flex-wrap flex-column flex-md-row align-items-center align-items-md-start justify-content-lg-center justify-content-between mx-auto" role="directory">
+
+            <a href="#gallery-2" class="advantages__link">
+              <p class="advantages__gym subtitle-2 d-flex flex-column flex-lg-row align-items-center align-items-lg-start text-center text-lg-left _jump">Полностью укомплектованный зал</p>
+            </a>
+
+            <a href="#gallery-2" class="advantages__link mt-2 mt-lg-0 order-3 order-md-2">
+              <p class="advantages__equipment subtitle-2 d-flex flex-column flex-lg-row align-items-center align-items-lg-start text-center text-lg-left _jump">Профессиональное оборудование</p>
+            </a>
+
+            <a href="#contacts" class="advantages__link order-2 order-md-3">
+              <p class="advantages__location subtitle-2 d-flex flex-column flex-lg-row align-items-center align-items-lg-start text-center text-lg-left _jump">Удобное расположение в центре города</p>
+            </a>
+
+            <a href="#price" class="advantages__link order-4">
+              <p class="advantages__price subtitle-2 d-flex flex-column flex-lg-row align-items-center align-items-lg-start text-center text-lg-left _jump">Доступная<br class="d-lg-none"> стоимость занятий</p>
+            </a>
+
+          </div>
+
+        </div>
+      </section><!-- about end -->
+
+      <section class="gallery _anim _anim-hide" id="gallery"><!-- gallery start -->
+        <div class="container px-0 px-lg-3">
+
+          <h2 class="gallery__title-1 title-1 text-center mx-auto position-relative" tabindex="0">Галерея</h2>
+
+          <div class="slider-1 position-relative ml-0 ml-lg-1" role="application" aria-label="Сотрудники клуба" tabindex="0"><!-- slider-1 start -->
+
+            <div class="swiper swiper-1">
+      
+              <div class="swiper-wrapper">
+              
+                <div class="swiper-slide" tabindex="0"><!-- slide-1 start -->
+
+                  <div class="img-wrapper w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide-1.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide-1-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide-1.jpg" alt="Директор" class="slide-image w-100 h-100">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Виктория Александровна</span>
+                    <span class="subtitle caption__subtitle--function">Директор</span>
+                  </div>
+
+                </div><!-- slide-1 end -->
+          
+                <div class="swiper-slide" tabindex="0"><!-- slide-2 start -->
+                  
+                  <div class="img-wrapper w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide-2.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide-2-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide-2.jpg" alt="Массажист" class="slide-image w-100 h-100">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Марина Викторовна</span>
+                    <span class="subtitle caption__subtitle--function">Массажист</span>
+                  </div>
+
+                </div><!-- slide-2 end -->
+          
+                <div class="swiper-slide" tabindex="0"><!-- slide-3 start -->
+                  
+                  <div class="img-wrapper w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide-3.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide-3-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide-3.jpg" alt="Тренер" class="slide-image w-100 h-100">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Анатолий Сергеевич</span>
+                    <span class="subtitle caption__subtitle--function">Тренер</span>
+                  </div>
+
+                </div><!-- slide-1 end -->
+          
+                <div class="swiper-slide" tabindex="0"><!-- slide-4 start -->
+
+                  <div class="img-wrapper w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide-4.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide-4-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide-4.jpg" alt="Менеджер" class="slide-image w-100 h-100">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Валерий Владимирович</span>
+                    <span class="subtitle caption__subtitle--function">Менеджер</span>
+                  </div>
+
+                </div><!-- slide-4 end -->
+
+                <div class="swiper-slide" tabindex="0"><!-- slide-5 start -->
+
+                  <div class="img-wrapper w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide-1.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide-1-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide-1.jpg" alt="Директор" class="slide-image w-100 h-100">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Виктория Александровна</span>
+                    <span class="subtitle caption__subtitle--function">Директор</span>
+                  </div>
+
+                </div><!-- slide-5 end -->
+          
+                <div class="swiper-slide" tabindex="0"><!-- slide-6 start -->
+                  
+                  <div class="img-wrapper w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide-2.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide-2-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide-2.jpg" alt="Массажист" class="slide-image w-100 h-100">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Марина Викторовна</span>
+                    <span class="subtitle caption__subtitle--function">Массажист</span>
+                  </div>
+
+                </div><!-- slide-6 end -->
+              
+              </div>
+          
+            </div>
+
+            <button class="prev-1 position-absolute d-none d-lg-block">
+              <svg class="tz prev-img">
+                <use xlink:href="img/svg/sprite.svg#prev-arrow"></use>
+              </svg>
+            </button>
+            
+            <button class="next-1 position-absolute d-none d-lg-block">
+              <svg class="tz next-img">
+                <use xlink:href="img/svg/sprite.svg#next-arrow"></use>
+              </svg>
+            </button>
+            
+            <div class="swiper-scrollbar scrollbar-1 rounded-0" role="scrollbar" aria-label="Ползунок прокрутки" aria-orientation="horizontal" aria-valuemax="6" aria-valuemin="1" aria-valuenow="1"></div>
+
+          </div><!-- slider-1 end -->
+
+          <div class="slider-2 position-relative ml-0 ml-lg-1" role="application" aria-label="Тренажерные залы клуба" id="gallery-2"><!-- slider-2 start -->
+
+            <div class="swiper swiper-2">
+      
+              <div class="swiper-wrapper">
+              
+                <div class="swiper-slide" tabindex="0"><!-- slide-1 start -->
+
+                  <div class="img-wrapper-2 w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide2-1.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide2-1-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide2-1.jpg" alt="Гостевой зал" class="slide-2-image w-100 h-100 tz">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Гостевой зал</span>
+                  </div>
+
+                </div><!-- slide-1 end -->
+          
+                <div class="swiper-slide" tabindex="0"><!-- slide-2 start -->
+                  
+                  <div class="img-wrapper-2 w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide2-2.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide2-2-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide2-2.jpg" alt="Зал TRX" class="slide-2-image w-100 h-100 tz">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Зал TRX</span>
+                  </div>
+
+                </div><!-- slide-2 end -->
+          
+                <div class="swiper-slide" tabindex="0"><!-- slide-3 start -->
+                  
+                  <div class="img-wrapper-2 w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide2-3.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide2-3-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide2-3.jpg" alt="Тренажерный зал" class="slide-2-image w-100 h-100 tz">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Тренажерный зал</span>
+                  </div>
+
+                </div><!-- slide-3 end -->
+          
+                <div class="swiper-slide" tabindex="0"><!-- slide-4 start -->
+
+                  <div class="img-wrapper-2 w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide2-1.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide2-1-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide2-1.jpg" alt="Гостевой зал" class="slide-2-image w-100 h-100 tz">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Гостевой зал</span>
+                  </div>
+
+                </div><!-- slide-4 end -->
+          
+                <div class="swiper-slide" tabindex="0"><!-- slide-5 start -->
+                  
+                  <div class="img-wrapper-2 w-100 overflow-hidden">
+                    <picture>
+                      <source srcset="img/main/slide2-2.webp" media="(min-width: 769px)" type="image/webp">
+                      <source srcset="img/main/slide2-2-tablet.webp" media="(max-width: 768px)" type="image/webp">
+                      <img src="img/main/slide2-2.jpg" alt="Зал TRX" class="slide-2-image w-100 h-100 tz">
+                    </picture>
+                  </div>
+
+                  <div class="caption w-100 position-absolute d-flex flex-column overflow-hidden">
+                    <span class="subtitle caption__subtitle">Зал TRX</span>
+                  </div>
+
+                </div><!-- slide-5 end -->
+              
+              </div>
+          
+            </div>
+
+            <button class="prev-2 position-absolute d-none d-lg-block">
+              <svg class="tz prev-img">
+                <use xlink:href="img/svg/sprite.svg#prev-arrow"></use>
+              </svg>
+            </button>
+            
+            <button class="next-2 position-absolute d-none d-lg-block">
+              <svg class="tz next-img">
+                <use xlink:href="img/svg/sprite.svg#next-arrow"></use>
+              </svg>
+            </button>
+            
+            <div class="swiper-scrollbar scrollbar-2 rounded-0" role="scrollbar" aria-label="Ползунок прокрутки" aria-orientation="horizontal" aria-valuemax="5" aria-valuemin="1" aria-valuenow="1" tabindex="0"</div>
+
+          </div><!-- slider-2 end -->
+
+        </div>
+      </section><!-- gallery end -->
+
+      <section class="price" id="price"><!-- price start -->
+        <div class="container px-0 px-lg-auto">
+
+          <h2 class="price__title-1 title-1 text-center mx-auto _anim _anim-hide" tabindex="0">Абонементы</h2>
+
+          <div class="table-responsive table-responsive--first simplebar mx-auto">
+
+            <table class="table-1 mx-auto _anim _anim-hide"><!-- table-1 start -->
+
+              <thead>
+
+                <tr class="table-1__row-head">
+                  <td><p class="text-2 table-1__text-2 th">Кол-во занятий</p></td>
+                  <td><p class="text-4 table-1__text-4 th">1 тренировка</p></td>
+                  <td><p class="text-4 table-1__text-4 th">4 тренировки</p></td>
+                  <td><p class="text-4 table-1__text-4 th">8 тренировок</p></td>
+                  <td><p class="text-4 table-1__text-4 th">12 тренировок</p></td>
+                </tr>
+
+              </thead>
+
+              <tbody>
+
+                <tr class="table-1__row-body">
+                  <td><p class="text table-1__text cell">Персональный тренинг<br class="d-lg-none"> с инструктором</p></td>
+                  <td><p class="text-1 table-1__text-1 _1 cell">700 руб.</p></td>
+                  <td><p class="text-1 table-1__text-1 _1 cell">2600 руб. (действителен в течении 3 недель)</p></td>
+                  <td><p class="text-1 table-1__text-1 _1 cell">5200 руб. (действителен в течении 6 недель)</p></td>
+                  <td><p class="text-1 table-1__text-1 _1 cell">7200 руб. (действителен в течении 10 недель)</p></td>
+                </tr>
+
+                <tr class="table-1__row-body">
+                  <td><p class="text table-1__text cell">Самостоятель<br class="d-sm-none">ные тренировки<br>в тренажерном зале</p></td>
+                  <td><p class="text-1 table-1__text-1 _2 cell">250 руб.</p></td>
+                  <td><p class="text-1 table-1__text-1 _2 cell">—</p></td>
+                  <td><p class="text-1 table-1__text-1 _2 cell">1500 руб. (действителен в течении 30 дней)</p></td>
+                  <td><p class="text-1 table-1__text-1 _2 cell">2000 руб. (действителен в течении 30 дней)</p></td>
+                </tr>
+
+                <tr class="table-1__row-body">
+                  <td><p class="text table-1__text cell">Зал групповых программ</p></td>
+                  <td><p class="text-1 table-1__text-1 _3 cell">300 руб.</p></td>
+                  <td><p class="text-1 table-1__text-1 _3 cell">—</p></td>
+                  <td><p class="text-1 table-1__text-1 _3 cell">2000 руб. (действителен в течении 30 дней</p></td>
+                  <td><p class="text-1 table-1__text-1 _3 cell">2750 руб. (действителен в течении 45 дней)</p></td>
+                </tr>
+
+              </tbody>
+
+            </table><!-- table-1 end -->
+ 
+          </div>
+
+          <h2 class="title-2 price__title-2 price__title-2--time text-center mx-auto _anim _anim-hide" tabindex="0" id="price-time">Абонемент по времени</h2>
+
+          <div class="table-responsive table-responsive--second simplebar">
+
+            <table class="table-2 mx-auto _anim _anim-hide"><!-- table-2 start -->
+
+              <thead>
+
+                <tr class="table-2__row-head">
+                  <td><p class="text-2 table-2__text-2 th">Тип карты</p></td>
+                  <td><p class="text-4 table-2__text-4 th">12 месяцев</p></td>
+                  <td><p class="text-4 table-2__text-4 th">6 месяцев</p></td>
+                  <td><p class="text-4 table-2__text-4 th">3 месяца</p></td>
+                  <td><p class="text-4 table-2__text-4 th">1 месяц</p></td>
+                </tr>
+
+              </thead>
+
+              <tbody>
+
+                <tr class="table-2__row-body">
+                  <td><p class="text table-2__text cell">Индивидуальная,<br>полная без ограничения<br>в посещении / <span class="table-2__small">8:00 – 23:00</span></p></td>
+                  <td><p class="text-1 table-2__text-1 _2_1 cell">18000<br>(+200 мин. солярия)</p></td>
+                  <td><p class="text-1 table-2__text-1 _2_1 cell">12000</p></td>
+                  <td><p class="text-1 table-2__text-1 _2_1 cell">7000</p></td>
+                  <td><p class="text-1 table-2__text-1 _2_1 cell">2500</p></td>
+                </tr>
+
+                <tr class="table-2__row-body">
+                  <td><p class="text table-2__text cell">Индивидуальная,<br>дневная / <span class="table-2__small">8:00 – 17:00</span></p></td>
+                  <td><p class="text-1 table-2__text-1 _2_2 cell">—</p></td>
+                  <td><p class="text-1 table-2__text-1 _2_2 cell">9500</p></td>
+                  <td><p class="text-1 table-2__text-1 _2_2 cell">5500</p></td>
+                  <td><p class="text-1 table-2__text-1 _2_2 cell">2000</p></td>
+                </tr>
+
+              </tbody>
+
+            </table><!-- table-2 end -->
+            
+          </div>
+
+          <h2 class="title-2 price__title-2 _anim _anim-hide price__title-2--last text-center mx-auto" tabindex="0" id="price-single">Разовые тренировки</h2>
+
+          <div class="cards d-flex justify-content-between mx-auto align-items-center align-items-md-start flex-wrap flex-column flex-md-row"><!-- cards start -->
+
+            <div class="cards__wrapper _anim _anim-hide">
+              <div class="card-face card-face--first d-flex flex-column justify-content-between align-items-center tz ml-0 ml-lg-1" role="complementary" tabindex="0"><!-- card-1 start -->
+
+                <h3 class="text-4 card-face__text-4 text-center" tabindex="0">Самостоятельные тренировки<br class="d-lg-none"> в тренажерном зале</h3>
+
+                <div class="card-face__tablet d-flex align-items-center flex-lg-column flex-wrap justify-content-center">
+
+                  <p class="text-5 card-face__text-5 card-face__text-5--height text-center order-1 order-lg-0" tabindex="0">8:00 – 23:00</p>
+                  <img src="img/main/card-image.svg" alt="Тренировка" class="img-fluid card-face__image tz order-0 order-lg-1">
+
+                </div>
+
+                <div class="card-face__wrapper d-flex flex-column">
+
+                  <div class="card-face__body d-flex flex-column align-items-center">
+
+                    <p class="title-2 card-face__title-2 text-center mr-1" tabindex="0">250<span class="card-face__fix">₽</span></p>
+                    <p class="text-5 card-face__text-5 text-center" tabindex="0">1 тренировка</p>
+
+                  </div>
+
+                  <button class="button-2 card-face__button-2" data-toggle="modal" data-target="#modal-ask">
+                    <span class="button-2__text text text-center d-block user-select-none">Узнать</span>
+                  </button>
+
+                </div>
+
+              </div><!-- card-1 end -->
+            </div>
+
+            <div class="cards__wrapper _anim _anim-hide">
+              <div class="card-face d-flex flex-column justify-content-between align-items-center tz" role="complementary" tabindex="0"><!-- card-2 start -->
+
+                <h3 class="text-4 card-face__text-4 text-center" tabindex="0">Персональный тренинг<br>с инструктором</h3>
+
+                <div class="card-face__tablet d-flex align-items-center flex-lg-column flex-wrap justify-content-center mr-2 mr-lg-0">
+
+                  <p class="text-5 card-face__text-5 card-face__text-5--height text-center order-1 order-lg-0" tabindex="0">8:00 – 23:00</p>
+                  <img src="img/main/card-image.svg" alt="Тренировка" class="img-fluid card-face__image tz order-0 order-lg-1">
+
+                </div>
+
+                <div class="card-face__wrapper d-flex flex-column">
+
+                  <div class="card-face__body d-flex flex-column align-items-center">
+
+                    <p class="title-2 card-face__title-2 text-center mr-1 mr-lg-0" tabindex="0">700<span class="card-face__fix">₽</span></p>
+
+                    <p class="text-5 card-face__text-5 text-center" tabindex="0">1 тренировка</p>
+
+                  </div>
+
+                  <button class="button-2 card-face__button-2" data-toggle="modal" data-target="#modal-ask">
+                    <span class="button-2__text text text-center d-block user-select-none">Узнать</span>
+                  </button>
+
+                </div>
+
+              </div><!-- card-2 end -->
+            </div>
+
+            <div class="cards__wrapper _anim _anim-hide">
+              <div class="card-face d-flex flex-column align-items-center justify-content-between tz" role="complementary" tabindex="0"><!-- card-3 start -->
+
+                <h3 class="text-4 card-face__text-4 text-center" tabindex="0">Зал групповых<br>программ</h3>
+
+                <div class="card-face__tablet d-flex align-items-center flex-lg-column flex-wrap justify-content-center">
+
+                  <p class="text-5 card-face__text-5 card-face__text-5--height text-center order-1 order-lg-0" tabindex="0">график занятий уточняйте<br class="d-lg-none"> у администратора</p>
+                  <img src="img/main/card-image.svg" alt="Тренировка" class="img-fluid card-face__image tz order-0 order-lg-1">
+
+                </div>
+
+                <div class="card-face__wrapper d-flex flex-column">
+
+                  <div class="card-face__body d-flex flex-column align-items-center">
+
+                    <p class="title-2 card-face__title-2 text-center mr-1 mr-lg-0" tabindex="0">300<span class="card-face__fix">₽</span></p>
+
+                    <p class="text-5 card-face__text-5 text-center" tabindex="0">1 тренировка</p>
+
+                  </div>
+
+                  <button class="button-2 card-face__button-2 ml-1 ml-lg-0" data-toggle="modal" data-target="#modal-ask">
+                    <span class="button-2__text text text-center d-block user-select-none">Узнать</span>
+                  </button>
+
+                </div>
+
+              </div><!-- card-3 end -->
+            </div>
+
+          </div><!-- cards end -->
+
+        </div>
+      </section><!-- price end -->
+
+      <section class="coaches" id="coaches"><!-- coaches start -->
+        <div class="container px-0 px-lg-3">
+
+          <div class="coaches__wrapper align-items-start d-flex ml-0 ml-lg-4">
+
+            <h2 class="coaches__title-1 _anim _anim-hide title-1 text-center" tabindex="0">Тренеры</h2>
+
+            <div class="slider-3 position-relative" tabindex="0" role="application" aria-label="Тренеры клуба"><!-- slider-3 start -->
+
+              <div class="swiper swiper-3 _anim _anim-hide">
+      
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide swiper-3__slide" tabindex="0"><!-- slide-1 start -->
+  
+                    <div class="img-wrapper-3 overflow-hidden">
+                      <picture>
+                        <source srcset="img/main/slide3-1.webp" type="image/webp">
+                        <img src="img/main/slide3-1.jpg" alt="Персональный тренер" class="slide-image w-100 h-100 tz">
+                      </picture>
+                    </div>
+
+                    <div class="caption-1 d-flex flex-column">
+
+                      <h3 class="text-4 caption-1__text-4">Илья Панченко</h3>
+
+                      <div class="swiper-3__wrapper d-flex">
+
+                        <div class="caption-1__text d-flex flex-column">
+                          <p class="text-5 caption-1__text-5">Персональный тренер</p>
+                          <p class="text-5 caption-1__text-5">Инструктор тренажерного зала</p>
+                          <p class="text-5 caption-1__text-5">Опыт работы — 4 года</p>
+                        </div>
+
+                      </div>
+                      
+                    </div>
+  
+                  </div><!-- slide-1 end -->
+
+                  <div class="swiper-slide swiper-3__slide" tabindex="0"><!-- slide-2 start -->
+  
+                    <div class="img-wrapper-3 overflow-hidden">
+                      <picture>
+                        <source srcset="img/main/slide3-2.webp" type="image/webp">
+                        <img src="img/main/slide3-2.jpg" alt="Фитнес-тренер" class="slide-image w-100 h-100 tz">
+                      </picture>
+                    </div>
+
+                    <div class="caption-1 d-flex flex-column">
+
+                      <h3 class="text-4 caption-1__text-4">Екатерина Сосина-Нуньес</h3>
+
+                      <div class="swiper-3__wrapper d-flex">
+
+                        <div class="caption-1__text d-flex flex-column">
+                          <p class="text-5 caption-1__text-5">Фитнес-тренер</p>
+                          <p class="text-5 caption-1__text-5">Опыт работы — 4 года</p>
+                        </div>
+
+                      </div>
+                      
+                    </div>
+  
+                  </div><!-- slide-2 end -->
+
+                  <div class="swiper-slide swiper-3__slide" tabindex="0"><!-- slide-3 start -->
+  
+                    <div class="img-wrapper-3 overflow-hidden">
+                      <picture>
+                        <source srcset="img/main/slide3-3.webp" type="image/webp">
+                        <img src="img/main/slide3-3.jpg" alt="Фитнес-тренер" class="slide-image w-100 h-100 tz">
+                      </picture>
+                    </div>
+
+                    <div class="caption-1 d-flex flex-column">
+
+                      <h3 class="text-4 caption-1__text-4">Юлия Белова</h3>
+
+                      <div class="swiper-3__wrapper d-flex">
+
+                        <div class="caption-1__text d-flex flex-column">
+                          <p class="text-5 caption-1__text-5">Фитнес-тренер</p>
+                          <p class="text-5 caption-1__text-5">Опыт работы — 4 года</p>
+                        </div>
+
+                      </div>
+                      
+                    </div>
+  
+                  </div><!-- slide-3 end -->
+
+                  <div class="swiper-slide swiper-3__slide" tabindex="0"><!-- slide-4 start -->
+  
+                    <div class="img-wrapper-3 overflow-hidden">
+                      <picture>
+                        <source srcset="img/main/slide3-4.webp" type="image/webp">
+                        <img src="img/main/slide3-4.jpg" alt="Персональный тренер" class="slide-image w-100 h-100 tz">
+                      </picture>
+                    </div>
+
+                    <div class="caption-1 d-flex flex-column">
+
+                      <h3 class="text-4 caption-1__text-4">Михаил Арифулин</h3>
+
+                      <div class="swiper-3__wrapper d-flex">
+
+                        <div class="caption-1__text d-flex flex-column">
+                          <p class="text-5 caption-1__text-5">Фитнес тренер</p>
+                          <p class="text-5 caption-1__text-5">Опыт работы — 9 лет</p>
+                        </div>
+
+                      </div>
+                      
+                    </div>
+  
+                  </div><!-- slide-4 end -->
+
+                  <div class="swiper-slide swiper-3__slide pr-1 pr-md-auto" tabindex="0"><!-- slide-5 start -->
+  
+                    <div class="img-wrapper-3 overflow-hidden">
+                      <picture>
+                        <source srcset="img/main/slide3-1.webp" type="image/webp">
+                        <img src="img/main/slide3-1.jpg" alt="Фитнес-тренер" class="slide-image w-100 h-100 tz">
+                      </picture>
+                    </div>
+
+                    <div class="caption-1 d-flex flex-column">
+
+                      <h3 class="text-4 caption-1__text-4">Илья Панченко</h3>
+
+                      <div class="swiper-3__wrapper d-flex">
+
+                        <div class="caption-1__text d-flex flex-column">
+                          <p class="text-5 caption-1__text-5">Персональный тренер</p>
+                          <p class="text-5 caption-1__text-5">Инструктор тренажерного зала</p>
+                          <p class="text-5 caption-1__text-5">Опыт работы — 4 года</p>
+                        </div>
+
+                      </div>
+                      
+                    </div>
+  
+                  </div><!-- slide-5 end -->
+                
+                </div>
+            
+              </div>
+
+              <div class="slider-3__controls _anim _anim-hide d-none d-lg-flex ">
+
+                <button class="prev-3">
+                  <svg class="prev-image tz">
+                    <use xlink:href="img/svg/sprite.svg#prev-arrow"></use>
+                  </svg>
+                </button>
+
+                <button class="next-3">
+                  <svg class="next-image tz">
+                    <use xlink:href="img/svg/sprite.svg#next-arrow"></use>
+                  </svg>
+                </button>
+
+              </div>
+              
+              <div class="swiper-scrollbar scrollbar-3 rounded-0 d-lg-none _anim _anim-hide" role="scrollbar" aria-label="Ползунок прокрутки" aria-orientation="horizontal" aria-valuemax="5" aria-valuemin="1" aria-valuenow="1"></div>
+
+            </div><!-- slider-3 end -->
+
+          </div>
+
+        </div>
+      </section><!-- coaches end -->
+
+      <section class="questions"><!-- questions start -->
+        <div class="container pr-auto pr-md-1">
+
+          <div class="row">
+
+            <div class="col-xl-4 offset-lg-7 offset-0 d-flex flex-column align-items-center align-items-md-end pr-auto pr-md-0 pr-lg-4">
+
+              <div class="questions__window mr-sm-1 d-flex flex-column align-items-center">
+
+                <div class="questions__wrapper d-flex flex-column _anim _anim-hide">
+
+                  <h2 class="questions__title-2 title-2 text-center" tabindex="0">Остались вопросы?</h2>
+                  <p class="questions__text-2 text-2 text-center">Оставьте Ваш номер телефона<br>и мы <span class="popup__marked">обязательно с Вами свяжемся</span></p>
+
+                </div>
+
+                <form action="#" method="post" enctype="text/plain" class="form questions__form d-flex flex-column align-items-center">
+        
+                  <div class="form__inputs d-flex flex-column _anim _anim-hide">
+                  
+                    <div class="form__unit">
+                      <input type="text" class="form__name text-5" placeholder="Введите имя" maxlength="30" id="name-2" autocomplete="off">
+                      <div id="name-warning-2" class="name-warning overflow-hidden"></div>
+                    </div>
+
+                    <div class="form__unit">
+                      <input type="tel" class="form__tel text-5" placeholder="Введите телефон" id="tel-2" autocomplete="off">
+                      <div id="tel-warning-2" class="tel-warning overflow-hidden"></div>
+                    </div>
+
+                  </div>
+
+                  <div class="transform-wrapper-3  _anim _anim-hide">
+                    <button class="button about__button position-relative ml-0" type="submit" id="submit-2">
+                      <span class="text button__text d-block text-center">Получить консультацию</span>
+                    </button>
+                  </div>
+
+                </form>
+
+                <p class="questions__text-5 text-5 text-center _anim _anim-hide">Нажимая на кнопку вы соглашаетесь с <a href="#" class="questions__rules d-inline">политикой конфиденциальности</a></p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- questions end -->
+
+    </main><!-- main end -->
+
+    <footer class="footer"><!-- footer start -->
+
+      <section class="location position-relative" id="contacts"><!-- location start -->
+
+        <div class="map position-md-absolute" id="map"></div>
+
+        <div class="map-info position-relative flex-column" tabindex="0">
+
+          <img src="img/main/about-4.svg" alt="Пантеон" class="map-info__logo position-absolute">
+        
+          <div class="map-info__intro">
+            <h2 class="map-info__title title">Фитнес клуб "Пантеон"</h2>
+            <p class="map-info__subtitle subtitle">ул. Ленина 84</p>
+          </div>
+        
+          <div class="map-info__subintro d-flex flex-column">
+            <p class="map-info__text text">Пн - Вс 8:00 - 23:00</p>
+            <p class="map-info__text-3 text-3">Тренажерный зал, Бокс, TRX, Массаж, Персональные и групповые тренировки</p>
+          </div>
+        
+        </div>
+
+        <div class="container px-auto pl-md-2 pl-lg-auto">
+
+          <div class="row">
+
+            <div class="col-xl-4 offset-lg-1 d-flex justify-content-sm-center justify-content-md-start perspective px-0 pl-md-0 px-lg-3">
+
+              <div class="info-bar ml-lg-2 _anim _anim-hide" id="contacts1">
+
+                <h3 class="title-1 info-bar__title-1 _anim _anim-hide text-center text-md-left mr-4 ml-lg-1">Контакты</h3>
+
+                <div class="info-bar__wrapper d-flex flex-column">
+
+                  <a href="https://goo.gl/maps/VY5XnahnD8CmAYit8" target="_blank" class="popup__link ml-1 anim-link _anim _anim-hide" tabindex="0">
+                    <p class="popup__text-1 text-1 d-flex align-items-start">г. Орехово-Зуево, ул. Ленина 84</p>
+                  </a>
+
+                  <p class="popup__text-1 gap popup__text-1--time text-1 d-flex align-items-start anim-link _anim _anim-hide" tabindex="0">Ежедневно с 8:00 до 23:00</p>
+
+                  <div class="info-bar__wrapper-2 d-flex align-items-start ml-lg-1 anim-link _anim _anim-hide">
+                    <p class="info-bar__text-1 text-1 d-flex flex-column">
+                      <a href="tel:+7(496)416-19-16" class="info-bar__link" tabindex="0">+7 (496) 416-19-16,</a><a href="tel:+7(925)881-21-70" class="info-bar__link" tabindex="0">+7 (925) 881-21-70</a>
+                    </p>
+                  </div>
+
+                </div>
+
+                <div class="info-bar__wrapper-3 d-flex flex-column align-items-start">
+
+                  <p class="popup__text-2 text-2 info-bar__text-2 _anim _anim-hide" tabindex="0">Подписывайтесь на наши соц.сети</p>
+    
+                  <div class="socials d-flex align-items-center" role="directory">
+
+                    <div class="transform-wrapper-4 _anim _anim-hide">
+                      <a href="#" target="_blank" class="socials__link" tabindex="0">
+                        <svg width="23px" height="22px" class="popup__logo tz">
+                          <use xlink:href="img/svg/sprite.svg#instagram"></use>
+                        </svg>
+                      </a>
+                    </div>
+    
+                    <div class="transform-wrapper-4 _anim _anim-hide">
+                      <a href="#" target="_blank" class="socials__link" tabindex="0">
+                        <svg width="31px" height="18px" class="popup__logo tz">
+                          <use xlink:href="img/svg/sprite.svg#vk"></use>
+                        </svg>
+                      </a>
+                    </div>
+    
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section><!-- location end -->
+
+      <section class="bottom"><!-- bottom start -->
+        <div class="container pl-0 pr-lg-2 pr-0">
+
+          <div class="bottom__wrapper-3 d-flex justify-content-lg-between w-100 flex-column flex-md-row">
+
+            <div class="bottom__logo d-flex flex-md-column align-items-center align-items-md-start justify-content-between justify-content-md-start _anim _anim-hide position-relative">
+
+              <h2>
+                <a href="index.html" class="navigation__logo ml-xl-3 ml-md-0">
+                  <picture>
+                    <source srcset="img/header/logo.webp" media="(min-width: 768px)" type="image/webp">
+                    <source srcset="img/footer/footer-logo.webp" media="(min-width: 320px)" type="image/webp">
+                    <img src="img/header/logo.png" alt="Логотип Пантеон" class="img-fluid navigation__image tz">
+                  </picture>
+                </a>
+              </h2>
+
+              <div class="bottom__wrapper flex-column d-none d-md-flex">
+
+                <p class="text-6 bottom__text-6 d-flex">
+                  <span>©</span><span>Все права защищены</span>
+                </p>
+                <p class="text-6 bottom__text-6">Орехово-Зуево, 2013-2022</p>
+
+              </div>
+
+              <div class="burger-button position-relative _anim _anim-hide" role="button" aria-label="Меню" tabindex="0" id="nolock"><!-- burger menu start -->
+                <div class="line line-1 position-absolute"></div>
+                <div class="line line-2 position-absolute"></div>
+                <div class="line line-3 position-absolute"></div>
+                <div class="line line-4 position-absolute"></div>
+              </div>
+
+              <div class="burger-menu w-100 position-absolute" role="menu">
+
+                <div class="burger-menu__wrapper">
+
+                  <a href="index.html" class="burger-menu__logo d-flex ml-lg-3 ml-0 mb-1 _anim _anim-hide">
+                    <picture>
+                      <source srcset="img/header/logo.webp" type="image/webp">
+                      <img src="img/header/logo.png" alt="Логотип Пантеон" class="img-fluid navigation__image">
+                    </picture>
+                  </a>
+
+                </div>
+
+                <div class="burger-menu__wrapper-1 d-flex justify-content-between">
+                  <ul class="burger-menu__links d-flex flex-column">
+
+                    <li>
+                      <a href="#coaches" class="link burger-menu__link text-center">Тренеры</a>
+                    </li>
+
+                    <li>
+                      <a href="#contacts1" class="link burger-menu__link text-center">Контакты</a>
+                    </li>
+
+                    <li>
+                      <a href="tel:+7(496)416-19-16" class="link burger-menu__link text-center">+7 (496) 416-19-16</a>
+                    </li>
+
+                  </ul>
+
+                  <ul class="burger-menu__links d-flex flex-column">
+
+                    <li>
+                      <a href="#about" class="link burger-menu__link text-center">О нас</a>
+                    </li>
+
+                    <li>
+                      <a href="#gallery" class="link burger-menu__link text-center">Галерея</a>
+                    </li>
+
+                    <li>
+                      <a href="#price" class="link burger-menu__link text-center">Абонементы</a>
+                    </li>
+
+                  </ul>
+                </div>
+
+                <ul class="burger-menu__links d-flex flex-column align-items-center mr-2">
+
+                  <li>
+                    <a href="#price-time" class="link burger-menu__link burger-menu__link--big text-center">Абонемент по времени</a>
+                  </li>
+
+                  <li>
+                    <a href="#price-single" class="link burger-menu__link burger-menu__link--big text-center">Разовые тренировки</a>
+                  </li>
+
+                </ul>
+
+              </div><!-- burger menu end -->
+
+            </div>
+
+            <div class="bottom__wrapper-4 d-flex flex-column flex-md-row justify-content-lg-between mw-100">
+
+              <div class="links justify-content-xl-between flex-column flex-lg-row justify-content-md-start d-none d-md-flex" role="directory">
+
+                <div class="links__wrapper-2 d-flex flex-md-column flex-xl-row justify-content-xl-between justify-content-md-start">
+
+                  <div class="links__wrapper _anim _anim-hide">
+                    <a href="#about" class="links__link text-6">О нас</a>
+                    <a href="#gallery" class="links__link text-6">Галерея</a>
+                    <a href="#price" class="links__link text-6">Абонементы</a>
+                  </div>
+
+                  <div class="links__wrapper _anim _anim-hide d-none d-lg-block">
+                    <a href="#coaches" class="links__link text-6">Тренеры</a>
+                    <a href="#contacts" class="links__link text-6">Контакты</a>
+                  </div>
+
+                </div>
+
+                <div class="links__wrapper ml-md-0 ml-xl-3 _anim _anim-hide">
+                  <a href="#price" class="links__link text-6 d-none d-lg-block">Абонементы</a>
+                  <a href="#price-time" class="links__link text-6">Абонемент по времени</a>
+                  <a href="#price-single" class="links__link text-6">Разовые тренировки</a>
+                </div>
+
+                <div class="links__wrapper _anim _anim-hide d-lg-none d-block">
+                  <a href="#coaches" class="links__link text-6">Тренеры</a>
+                  <a href="#contacts" class="links__link text-6">Контакты</a>
+                </div>
+                
+              </div> 
+
+              <address class="address d-flex flex-xl-row flex-column justify-content-between align-items-md-end align-items-xl-start">
+
+                <div class="address__socials d-flex flex-column _anim _anim-hide order-1 order-xl-0 align-items-md-end align-items-xl-start">
+
+                  <p class="text-6 address__text-6">Наши соц.сети</p>
+
+                  <div class="socials d-flex align-items-center flex-wrap" role="directory">
+
+                    <a href="#" target="_blank" class="socials__link order-1 order-xl-0">
+                      <svg width="23px" height="22px" class="address__logo tz">
+                        <use xlink:href="img/svg/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+    
+                    <a href="#" target="_blank" class="socials__link order-0 order-xl-1">
+                      <svg width="31px" height="18px" class="address__logo tz">
+                        <use xlink:href="img/svg/sprite.svg#vk"></use>
+                      </svg>
+                    </a>
+    
+                  </div>
+
+                </div>
+
+                <div class="address__info d-flex flex-column _anim _anim-hide order-0 order-xl-1">
+                  
+                  <p class="text-6 address__text-6">
+                    <a href="https://goo.gl/maps/VY5XnahnD8CmAYit8" target="_blank" class="address__link text-md-right text-xl-left">г. Орехово-Зуево, ул. Ленина 84</a>
+                  </p>   
+
+                  <p class="text-6 address__text-6 text-md-right text-xl-left">Ежедневно с 8:00 до 23:00</p>
+
+                  <p class="text-6 address__text-6 text-md-right text-xl-left">
+                    <a href="tel:+7(496)416-19-16" class="address__link d-inline">+7 (496) 416-19-16</a>, <a href="tel:+7(925)881-21-70" class="address__link d-inline">+7 (925) 881-21-70</a>
+                  </p>
+                  
+                  <p class="text-6 address__text-6">
+                    <a href="#" target="_blank" class="address__link text-md-right text-xl-left">Политика конфиденциальности</a>
+                  </p>
+                
+                </div>
+
+              </address>
+
+              <div class="bottom__wrapper flex-column d-flex d-md-none _anim _anim-hide">
+
+                <p class="text-6 bottom__text-6 d-flex">
+                  <span>©</span><span>Все права защищены</span>
+                </p>
+                <p class="text-6 bottom__text-6">Орехово-Зуево, 2013-2022</p>
+
+              </div>
+
+            </div>
+
+          </div>
+          
+        </div>
+      </section><!-- bottom end -->
+
+    </footer><!-- footer end -->
+
+  </div>
+
+  <!-- Jquery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  <!-- Input Mask -->
+  <script src="js/inputmask.min.js"></script>
+  <!-- Slider Swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Simplebar -->
+  <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+  <!-- Google map api -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFE3oNoCpySIUPBvuWMlj1m1n03N17EVc&callback=initMap&v=weekly" defer></script>
+  <!-- Main JS -->
+  <script src="js/script.js"></script>
+
+  </body>
+</html>
